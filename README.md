@@ -12,4 +12,4 @@ npm permet de lancer des commandes nodejs sans installer de modules. Ceci va lan
 
 # Examples
 
-(/examples)[/examples]
+[/examples](/examples)
