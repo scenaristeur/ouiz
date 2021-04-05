@@ -12,4 +12,6 @@ npm permet de lancer des commandes nodejs sans installer de modules. Ceci va lan
 
 # Examples
 
+[/Easy example Semapps ldp container to visjs nodes & edges](https://github.com/scenaristeur/ouiz/tree/main/examples/easy)
+
 [/examples](/examples)

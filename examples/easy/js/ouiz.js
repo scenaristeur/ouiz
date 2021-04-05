@@ -64,7 +64,6 @@ export default class Ouiz {
       Array.prototype.push.apply(this.network.nodes, g.nodes);
       Array.prototype.push.apply(this.network.edges, g.edges);
     }
-
     for await (let n of this.network.nodes) {
       if(n.built == undefined){
         await this.buildEdges(n)
