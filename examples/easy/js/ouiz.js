@@ -1,13 +1,16 @@
-console.log("OUUUUIIIIIIZ")
-
 export default class Ouiz {
   constructor() {
-    this.doc = {}
-    this.graphs = []
-    this.network = {nodes: [], edges: []}
+    this.reset()
+    console.log("OUUUUIIIIIIZ")
     // console.log(sources)
     // this.sources = sources
     // this.graphs = []
+  }
+
+  async reset(){
+    this.doc = {}
+    this.graphs = []
+    this.network = {nodes: [], edges: []}
   }
 
   async load(url){
